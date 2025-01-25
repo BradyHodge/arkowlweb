@@ -1,0 +1,13 @@
+.hero-gradient {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+.glow-effect {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+.card-hover {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
+}
